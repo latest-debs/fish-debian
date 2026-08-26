@@ -1,0 +1,9 @@
+# Package definition for fish
+
+package_name: fish
+github_repo: fish-shell/fish-shell
+artifact_format: tar.xz
+description: "The user-friendly command line shell."
+license: NOASSERTION
+
+# Build for all Debian suites and all supported architectures.

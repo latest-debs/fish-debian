@@ -1,0 +1,41 @@
+{
+  "gate": "warn",
+  "license": {
+    "declared": "NOASSERTION",
+    "detected": [],
+    "license_files": [],
+    "matches": false,
+    "status": "warn",
+    "detail": "declared NOASSERTION but no license/SPDX content detected in archive"
+  },
+  "asset": {
+    "format": "tar.xz",
+    "size": 2899572,
+    "valid": true,
+    "is_html": false,
+    "binary": "fish",
+    "elf_arch": "ARM aarch64",
+    "status": "pass",
+    "detail": "valid tar.xz archive containing 1 ELF executable(s); first: fish (ARM aarch64); release covers: amd64 arm64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "fish-4.8.1-linux-x86_64.tar.xz",
+      "arm64": "fish-4.8.1-linux-aarch64.tar.xz"
+    }
+  },
+  "vetted_at": "2026-08-26T05:20:01Z"
+}
